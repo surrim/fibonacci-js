@@ -1,0 +1,38 @@
+body>div {
+	font-family: sans-serif;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 24em;
+	text-align: center;
+	transform: translate(-50%, -50%);
+}
+
+body>div>div {
+	border: .2em solid #888;
+	border-radius: 1em;
+	background-color: #eee;
+	padding: .5em 1em;
+	margin-bottom: 1em;
+}
+
+label {
+	display: block;
+	width: 6em;
+	float: left;
+}
+
+input {
+	width: 18em;
+	text-align: center;
+	margin-bottom: .5em;
+}
+
+#fibonacciNumber {
+  	text-align: center;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	overflow: auto;
+}
+
